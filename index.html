@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Collection</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  body {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/031/691/377/non_2x/video-game-controller-with-bright-neon-light-streaks-computer-gamer-background-3d-octane-render-game-concept-ideas-ai-generative-free-photo.jpg'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+  }
+
+  header {
+    text-align: center; /* Center align the header */
+  }
+
+  header h1 {
+    margin: 0; /* Remove default margin */
+  }
+
+  nav ul {
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align the list items */
+  }
+
+  nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin: 0 10px; /* Add some space between list items */
+  }
+
+  nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Set link color */
+  }
+
+  nav ul li a:hover {
+    color: #ccc; /* Change link color on hover */
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Game Collection</h1>
+  <nav>
+    <ul>
+      <li><a href="#" onclick="loadGame('about.html')">About</a></li>
+      <li><a href="#" onclick="loadGame('memory-game.html')">Memory Game</a></li>
+      <li><a href="#" onclick="loadGame('shootthebottle.html')">Shoot the bottle</a></li>
+      <li><a href="#" onclick="loadGame('connectdots.html')">Connect dots</a></li
+      <li><a href="#" onclick="loadGame('2048.html')">2048</a></li>
+      <li><a href="#" onclick="loadGame('snake.html')">Snake</a></li>
+      <li><a href="#" onclick="loadGame('tic-tac-toe.html')">Tic Tac Toe</a></li>
+      <li><a href="#" onclick="loadGame('suduko.html')">Sudoku</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="gameArea">
+  <!-- Content will be loaded here -->
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

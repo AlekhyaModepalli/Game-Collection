@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #800000;
+}
+
+.game-info {
+    margin-bottom: 20px;
+}
+
+.game-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.game-info li {
+    margin-bottom: 5px;
+}
+
+.game-details p {
+    margin-bottom: 10px;
+}
